@@ -1,0 +1,17 @@
+{
+    "cmake.generator": "Visual Studio 17 2022",
+    "cmake.preferredGenerators": [
+        "Visual Studio 17 2022"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/Build",
+    "cmake.configureSettings": {
+        "CMAKE_GENERATOR_PLATFORM": "x64"
+    },
+    "cmake.configureOnOpen": true,
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "clangd.arguments": [
+        "--background-index=false",
+        "--clang-tidy=false",
+        "--compile-commands=Build/compile_commands.json"
+    ]
+}
